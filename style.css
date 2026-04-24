@@ -1,0 +1,41 @@
+body {
+  font-family: Arial;
+  background: #111;
+  color: white;
+  text-align: center;
+}
+
+header {
+  background: green;
+  padding: 20px;
+}
+
+.products {
+  margin: 20px;
+}
+
+.product {
+  background: #222;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.product:hover {
+  transform: scale(1.05);
+}
+
+img {
+  width: 100px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  background: orange;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
